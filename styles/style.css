@@ -1,8 +1,9 @@
 
 body {
-  background-image: url("../fondox2.png");
+ /* background-image: url("../fondox2.png");*/
   background-repeat: repeat-y;
   background-size: cover;
+  background-color: black;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
   opacity: 0.8;
@@ -131,7 +132,7 @@ footer {
 
   right: 0px;
   
-  background-image: url("../fondox.png");
+  /*background-image: url("../fondox.png");*/
   backdrop-filter: blur(12px);
 }
 f
@@ -165,9 +166,9 @@ a:visited { text-decoration: none; color:white; }
   0 0 151px #0fa;
 }
 #logoimg {
-  width: 50px;
-  height: 50px;
-  bottom: 15px;
+  max-width: 50%;
+    height: auto;
+    display:block;
 }
 
 
@@ -433,5 +434,5 @@ a{
   text-decoration: none;
   color: whitesmoke;
   font-size: 25px;
-}
+} */
 

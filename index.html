@@ -1,85 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/style2.css" />
 
     <title>Claudio Hernandez</title>
   </head>
   <body>
-    <div class="circles">
-      <div class="circle circle__one"></div>
-      <div class="circle circle__two"></div>
-      <div class="circle circle__three"></div>
-    </div>
-    <header class="glass-header">
-      <nav >
-        <ul>
+   
+    <header >
+      <nav>
+        <ul id="navBar">
           <li>
-            <img
-              id="logoimg"
-              src="./istockphoto-1292531015-612x612-removebg-preview.png"
-              alt="Logo"
-            />
+            <a href="">Projects</a>
           </li>
-          <li class="h">
-            <a href="./main/about.html">Sobre Claudio</a>
-          </li>
-          <li class="h">
-            <a href="#division1">Proyectos</a>
+          <li>
+            <a href="">About</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="divjaja">
-        <div class="mainH">
-          <h2>I'm Claudio Hernandez</h2>
-          <h1>Software developer</h1>
-          <h3>Web and mobile</h3>
+      <div id="divMain">
+        <h1>
+          I am Claudio Hernandez
+        </h1>
+        <h3>Software developer</h3>
+        <h2>Some of my skills are</h2>
+        <div id="gridSkills">
+          <div class="skill_container">
+            <img src="./assets/icons/css-3.png" alt="">
+            <p>CSS</p>
+          </div>
+          <div class="skill_container">
+            <img src="./assets/icons/icons8-dart-96.png" alt="">
+            <p>Dart</p>
+          </div>
+          <div class="skill_container">
+            <img src="./assets/icons/js.png" alt="">
+            <p>Javascript</p>
+          </div>
+          <div class="skill_container">
+            <img src="./assets/icons/html.png" alt="">
+            <p>HTML</p>
+          </div>
         </div>
-        <img
-          src="./istockphoto-1292531015-612x612-removebg-preview.png"
-          id="imagen-main"
-        />
       </div>
-      <h2 id="text-Main">Some of my skills</h2>
+      
 
-      <div class="progress">
-        <div class="label-div">
-          <label for="flutter">
-            <img src="./file_type_flutter_icon_130599.png" alt="" />
-            <h4 class="lol">Flutter</h4>
-            <progress value="70" max="100" id="flutter"></progress>
-          </label>
-        </div>
-        <div class="label-div">
-          <label for="CSS">
-            <img src="./css-3.png" />
-            <h4 class="lol">CSS</h4>
-            <progress value="45" max="100" id="CSS"></progress>
-          </label>
-        </div>
-        <div class="label-div">
-          <label for="HTML">
-            <img src="./html.png" alt="" />
-            <h4 class="lol">HTML</h4>
-            <progress value="45" max="100" id="HTML"></progress>
-          </label>
-        </div>
-        <div class="label-div">
-          <label for="Dart">
-            <img src="icons8-dart-96.png" alt="" />
-            <h4 class="lol">Dart</h4>
-            <progress value="70" max="100" id="Dart"></progress>
-          </label>
-        </div>
-      </div>
+      
     </main>
-    <div class="division" id="division1">
+    <div id="projects">
+      <div class="projectsContainer">
+        <div class="imgAndLink">
+          <img src="./assets/images/ic_launcher-playstore.png" alt="promedyLogo" title="promedy app logo">
+          <a href="https://play.google.com/store/apps/details?id=com.promedy.Promedy" target="_blank"><img src="./assets/icons/playstore.png" alt="" id="imgLink"></a>
+        </div>
+        <h3>Promedy</h3>
+        <p>
+          Promedy is an android native application,<br>
+           created for helping students to calculate averages in a faster way.
+        </p>
+        <ol class="techUsed">
+          
+          <li>Java</li>
+          <li>Android native</li>
+        </ol>
+      </div>
+      <div class="projectsContainer">
+        <div class="imgAndLink">
+          <img src="./assets/images/planetae.png" alt="promedyLogo" title="promedy app logo">
+          <a href="https://play.google.com/store/apps/details?id=com.ICMA.planetea" target="_blank"><img src="./assets/icons/playstore.png" alt="" id="imgLink"></a>
+        </div>
+        <h3>Planetae</h3>
+        <p>
+          Planetae, mobile application<br>
+          for learning about solar system made with Flutter & Dart.
+        </p>
+        <ol class="techUsed">
+          <li>
+            Flutter
+          </li>
+          <li>Dart</li>
+          <li>Java</li>
+          <li>Android sdk</li>
+        </ol>
+      </div>
+      <div class="projectsContainer">
+        <div class="imgAndLink">
+          <img src="./assets/images/logoprueba.png" alt="Planetae logo" title="planetae  app logo">
+          <a href="https://play.google.com/store/apps/details?id=com.ICMA.icma_notes" target="_blank"><img src="./assets/icons/playstore.png" alt="" id="imgLink"></a>
+        </div>
+        <h3>ICMA notes</h3>        <p>
+          ICMA notes, mobile application cloud-based note app,<br>
+           where you can store your notes using your gmail.
+        </p>
+        <ol class="techUsed">
+          <li>
+            Flutter
+          </li>
+          <li>Dart</li>
+          <li>Java</li>
+          <li>Firebase Firestore</li>
+          <li>JSON</li>
+        </ol>
+      </div>
+      <div class="projectsContainer">
+        <div class="imgAndLink">
+          <img src="./assets/images/indexalogo.png" alt="indexaLogo" title="INDEXA app logo">
+          <a href="https://play.google.com/store/apps/details?id=com.ICMA.indexa" target="_blank"><img src="./assets/icons/playstore.png" alt="" id="imgLink"></a>
+        </div>
+        <h3>INDEXA</h3>
+        <p>
+          INDEXA is an e-commerce app<br>
+          Curently is in operation, this app wass made for a mid-size e-commerce business
+        </p>
+        <ol class="techUsed">
+          <li>
+            Flutter
+          </li>
+          <li>Dart</li>
+          <li>Java</li>
+          <li>Firebase</li>
+          <li>JSON</li>
+
+        </ol>
+        
+      </div>
+      <div class="projectsContainer">
+        <div class="imgAndLink">
+          <img src="./assets/images/logo.png" alt="ICMA health" title="icma health app logo">
+          <a href="https://play.google.com/store/apps/details?id=com.ICMA.icma_health" target="_blank"><img src="./assets/icons/playstore.png" alt="" id="imgLink"></a>
+        </div>
+        <h3>ICMA health</h3>
+        <p>
+          Health app designed to calculate your BMI<br>
+          with dynamic chart to illustrate curren health
+        </p>
+        <ol class="techUsed">
+          <li>
+            Flutter
+          </li>
+          <li>Dart</li>
+          <li>Java</li>
+          <li>Getx</li>
+        </ol>
+      </div>
+
+    </div>
+    <!-- <div class="division" id="division1">
       <h2 id="h2-proyectos">Algunos de mis proyectos</h2>
       <div class="proyectos">
         <img class="proyecto-foto" src="./logoprueba.png"/>
@@ -108,22 +179,22 @@
    
 
 
-    </div>
+    </div> -->
    
 
     <footer id="footer">
-      <nav>
+      <nav id="nav_footer">
         <ul>
           <li>
             <a
-              href="https://hn.linkedin.com/in/claudio-andre-hern%C3%A1ndez-zavala-9aa6971aa"
+              href="https://www.linkedin.com/in/claudio-andre-hernandez-794383242"
               target="_blank"
-              ><img class="redes" src="./linkedin.png"
+              ><img class="redes" src="./assets/icons/linkedin.png"
             /></a>
           </li>
           <li>
-            <a href="https://github.com/Claudio-Hernandez" target="_blank"
-              ><img class="redes" src="github.png"
+            <a href="https://github.com/claudioHernandezZavala" target="_blank"
+              ><img class="redes" src="./assets/icons/github.png"
             /></a>
           </li>
         </ul>
