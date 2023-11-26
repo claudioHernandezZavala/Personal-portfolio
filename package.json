@@ -1,7 +1,7 @@
 {
   "name": "personal_portfolio",
   "version": "0.1.0",
-  "homepage": "https://claudiohernandezzavala.github.io/Personal-portfolio/",
+  "homepage": "https://claudiohernandez.dev/",
   "private": true,
   "dependencies": {
     "@sanity/client": "^6.4.12",
